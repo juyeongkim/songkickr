@@ -1,2 +1,22 @@
-# songkickr
-Can I (song)kick it?
+songkickr
+================
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+[![Build Status](https://travis-ci.org/juyeongkim/songkickr.svg?branch=master)](https://travis-ci.org/juyeongkim/songkickr) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/juyeongkim/songkickr?branch=master&svg=true)](https://ci.appveyor.com/project/juyeongkim/songkickr) [![codecov](https://codecov.io/gh/juyeongkim/songkickr/branch/master/graph/badge.svg)](https://codecov.io/gh/juyeongkim/songkickr) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/songkickr)](https://cran.r-project.org/package=songkickr)
+
+An R wrapper around [the Songkick API](https://www.songkick.com/developer).
+
+Get API Key
+-----------
+
+-   [Apply for an API key](https://www.songkick.com/api_key_requests/new)
+-   Read their full [terms of use](https://www.songkick.com/developer/api-terms-of-use)
+-   Copy and save the API key somewhere safe
+
+Installation
+------------
+
+``` r
+# install.packages("devtools")
+devtools::install_github("juyeongkim/songkickr")
+```

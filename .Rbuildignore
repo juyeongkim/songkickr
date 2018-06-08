@@ -1,0 +1,7 @@
+^songkickr\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^README\.Rmd$
+^\.travis\.yml$
+^appveyor\.yml$
+^codecov\.yml$
