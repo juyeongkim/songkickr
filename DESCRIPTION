@@ -1,7 +1,7 @@
 Package: songkickr
 Version: 0.0.0.9000
 Title: An R wrapper around the Songkick API
-Description: An R wrapper around the Songkick API.
+Description: An R wrapper around the Songkick API. https://www.songkick.com/developer
 Authors@R: person("Ju Yeong", "Kim", , "jk@juyeongkim.com", c("aut", "cre"))
 License: GPL-3
 URL: https://github.com/juyeongkim/songkickr
@@ -9,6 +9,8 @@ BugReports: https://github.com/juyeongkim/songkickr/issues
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
+Imports:
+    httr
 Suggests: 
     testthat,
     covr

@@ -21,6 +21,8 @@ knitr::opts_chunk$set(
 ```
 
 
+WORK IN PROGRESS
+
 An R wrapper around [the Songkick API](https://www.songkick.com/developer).
 
 

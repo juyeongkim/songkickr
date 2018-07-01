@@ -4,6 +4,8 @@ songkickr
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 [![Build Status](https://travis-ci.org/juyeongkim/songkickr.svg?branch=master)](https://travis-ci.org/juyeongkim/songkickr) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/juyeongkim/songkickr?branch=master&svg=true)](https://ci.appveyor.com/project/juyeongkim/songkickr) [![codecov](https://codecov.io/gh/juyeongkim/songkickr/branch/master/graph/badge.svg)](https://codecov.io/gh/juyeongkim/songkickr) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/songkickr)](https://cran.r-project.org/package=songkickr)
 
+WORK IN PROGRESS
+
 An R wrapper around [the Songkick API](https://www.songkick.com/developer).
 
 Get API Key
