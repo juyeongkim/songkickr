@@ -2,3 +2,4 @@
 
 importFrom(httr,GET)
 importFrom(httr,content)
+importFrom(jsonlite,fromJSON)
