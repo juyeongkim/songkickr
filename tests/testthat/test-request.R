@@ -42,6 +42,12 @@ test_that("`get_tracked_metro_by_user` works", {
   expect_is(res, "data.frame")
 })
 
+test_that("`get_tracked_artists_by_user` works", {
+  res <- songkickr:::get_tracked_artists_by_user(username)
+
+  expect_is(res, "data.frame")
+})
+
 test_that("`get_muted_artists_by_user` works", {
   res <- songkickr:::get_muted_artists_by_user(username)
 
