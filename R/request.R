@@ -11,13 +11,23 @@ get_key <- function() {
   key
 }
 
-#' @importFrom httr GET content
+#' @importFrom utils packageVersion
+get_useragent <- function() {
+  paste0(
+    "R/", R.version$major, ".", R.version$minor,
+    " (", Sys.info()["sysname"], " ", Sys.info()["machine"], ")",
+    " songkickr/", packageVersion("songkickr")
+  )
+}
+
+#' @importFrom httr GET content config
 #' @importFrom jsonlite fromJSON
 request <- function(endpoint, query = list()) {
   res <- GET(
     url = "https://api.songkick.com",
     path = c("api", "3.0", endpoint),
-    query = c(query, apikey = get_key())
+    query = c(query, apikey = get_key()),
+    config = config(useragent = get_useragent())
   )
 
   text <- content(res, "text")
