@@ -32,7 +32,11 @@ request <- function(endpoint, query = list()) {
 
   text <- content(res, "text")
   parsed <- fromJSON(text, flatten = TRUE)
-  results <- parsed$resultsPage$results[[1]]
+  if (length(parsed$resultsPage$results) == 1) {
+    results <- parsed$resultsPage$results[[1]]
+  } else {
+    results <- data.frame()
+  }
   attributes(results) <- c(
     attributes(results),
     status = parsed$resultsPage$status,
