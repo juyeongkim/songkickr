@@ -2,23 +2,30 @@ songkickr
 ================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Build Status](https://travis-ci.org/juyeongkim/songkickr.svg?branch=master)](https://travis-ci.org/juyeongkim/songkickr) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/juyeongkim/songkickr?branch=master&svg=true)](https://ci.appveyor.com/project/juyeongkim/songkickr) [![codecov](https://codecov.io/gh/juyeongkim/songkickr/branch/master/graph/badge.svg)](https://codecov.io/gh/juyeongkim/songkickr) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/songkickr)](https://cran.r-project.org/package=songkickr)
 
-WORK IN PROGRESS
+<!-- badges: start -->
 
-An R wrapper around [the Songkick API](https://www.songkick.com/developer).
+[![R-CMD-check](https://github.com/juyeongkim/songkickr/workflows/R-CMD-check/badge.svg)](https://github.com/juyeongkim/songkickr/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/juyeongkim/songkickr/branch/master/graph/badge.svg)](https://codecov.io/gh/juyeongkim/songkickr?branch=master)
+[![Lifecycle:
+maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+<!-- badges: end -->
 
-Get API Key
------------
+An R wrapper around [the Songkick
+API](https://www.songkick.com/developer).
 
--   [Apply for an API key](https://www.songkick.com/api_key_requests/new)
--   Read their full [terms of use](https://www.songkick.com/developer/api-terms-of-use)
--   Copy and save the API key somewhere safe
+## Get API Key
 
-Installation
-------------
+  - [Apply for an API
+    key](https://www.songkick.com/api_key_requests/new)
+  - Read their full [terms of
+    use](https://www.songkick.com/developer/api-terms-of-use)
+  - Copy and save the API key somewhere safe
+
+## Installation
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("juyeongkim/songkickr")
+# install.packages("remotes")
+remotes::install_github("juyeongkim/songkickr")
 ```

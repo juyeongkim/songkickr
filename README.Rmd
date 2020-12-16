@@ -5,10 +5,11 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![Build Status](https://travis-ci.org/juyeongkim/songkickr.svg?branch=master)](https://travis-ci.org/juyeongkim/songkickr)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/juyeongkim/songkickr?branch=master&svg=true)](https://ci.appveyor.com/project/juyeongkim/songkickr)
-[![codecov](https://codecov.io/gh/juyeongkim/songkickr/branch/master/graph/badge.svg)](https://codecov.io/gh/juyeongkim/songkickr)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/songkickr)](https://cran.r-project.org/package=songkickr)
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/juyeongkim/songkickr/workflows/R-CMD-check/badge.svg)](https://github.com/juyeongkim/songkickr/actions)
+[![Codecov test coverage](https://codecov.io/gh/juyeongkim/songkickr/branch/master/graph/badge.svg)](https://codecov.io/gh/juyeongkim/songkickr?branch=master)
+[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+<!-- badges: end -->
 
 
 ```{r setup, include = FALSE}
@@ -20,8 +21,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-
-WORK IN PROGRESS
 
 An R wrapper around [the Songkick API](https://www.songkick.com/developer).
 
@@ -36,6 +35,6 @@ An R wrapper around [the Songkick API](https://www.songkick.com/developer).
 ## Installation
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("juyeongkim/songkickr")
+# install.packages("remotes")
+remotes::install_github("juyeongkim/songkickr")
 ```

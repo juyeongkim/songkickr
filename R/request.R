@@ -1,5 +1,5 @@
 get_key <- function() {
-  key <- Sys.getenv("songkick_key")
+  key <- Sys.getenv("SONGKICK_KEY")
 
   if (identical(key, "")) {
     stop(
