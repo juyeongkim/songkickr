@@ -3,7 +3,7 @@ get_key <- function() {
 
   if (identical(key, "")) {
     stop(
-      "Please set environment variable `songkick_key` to your songkick API key",
+      "Please set environment variable `SONGKICK_KEY` to your songkick API key",
       call. = FALSE
     )
   }
